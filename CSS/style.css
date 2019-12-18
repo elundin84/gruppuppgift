@@ -2,5 +2,11 @@
     background-color: darkred;
     color: floralwhite;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
     border: darkred;
+    border-radius: 6px;
+    height: 75px;
+    
 }
