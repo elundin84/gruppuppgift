@@ -12,6 +12,8 @@
     margin-bottom: 2em;
 }
 
+
+
 #wrap {
 	margin:0% 15%;
 	display:grid;
@@ -48,6 +50,7 @@
             text-align: center;
 }
 .pic1 {font-family: Georgia, 'Times New Roman', Times, serif;
-            color: floralwhite;
+            color: salmon;
+            text-align: center;
 }
         
