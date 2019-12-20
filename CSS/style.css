@@ -39,7 +39,6 @@
 .div5 { grid-column:3/5;
 }
 .div6 { grid-column:1/3;
-    background:red;
 }
 .div7 { grid-column:3/5;
     background:blue;
