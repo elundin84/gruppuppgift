@@ -54,6 +54,11 @@ li a:hover {
 
 
 .div1 {grid-column:1/5;
+    background: darkseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategrey;
+    text-align: center;
+    
 }
 .article1 {grid-column:1/3;
     background:#e9967a;
