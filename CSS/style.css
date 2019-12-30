@@ -119,4 +119,5 @@ figure {
 footer {
     margin:3em 0px 0px 0px;
     background:darkseagreen;
-    text-align:center;}
+    text-align:center;
+    border-top:solid black 3px;}
