@@ -3,6 +3,7 @@ body {
     color: black;
     text-align: left;
     font-size: 18px;
+    margin:0px;
 }
 h1, h2, figure, figcaption {
     text-align: center;
@@ -94,18 +95,16 @@ li a {
     border-radius:5px 5px 5px 5px;
 }
 .div6 { grid-column:1/3;
-    background:orange;
+    background:darkseagreen;
     border-radius:0px 0px 0px 25px;
     border:solid black 5px;
 }
 .div7 { grid-column:3/5;
-    background:orange;
+    background:darkseagreen;
     border: solid black 5px;
 
 }
-.div8 { grid-column:1/5;
-        height:25px;
-        border-radius:0px 0px 10px 10px;}          
+         
 img {
     height: 300px;
     border-radius: 5px;
@@ -114,5 +113,10 @@ img {
 
 figure {
     padding:0px;
-    margin:0px;
-}
+    margin:0px;}
+
+
+footer {
+    margin:3em 0px 0px 0px;
+    background:darkseagreen;
+    text-align:center;}
