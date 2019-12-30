@@ -1,21 +1,24 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
+    text-align: left;
+    font-size: 18px;
+}
+h1, h2, figure, figcaption {
     text-align: center;
 }
 .header {
-    background-color: darkred;
-    color: floralwhite;
+    background-color: darkseagreen;
+    color: rgb(31, 53, 53);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    text-shadow: 2px grey;
-    line-height: 70px;
-    border-radius: 6px;
-    height: 75px;
+    border-radius: 5px;
     margin-top: 1em;
     margin-bottom: 1em;
+    padding-top:20px;
+    padding-bottom:20px;
    
 }
 .nav {
@@ -30,14 +33,24 @@ body {
     border-bottom: 2px solid  #e9967a;
     border-top: 2px solid #e9967a;
 }
+
+.nav li a{
+    text-decoration:none;
+    
+}
+.nav li a:hover{
+    text-decoration:underline;
+    color: white;
+    background-color: #e9967a;
+    background-size: 50px;
+
+}
+
 li {
     color: black;
 }
 li a {
-    color: black;
-}
-li a:hover {
-    background-color: #e9967a;
+    color:rgb(31, 53, 53);
 }
 
 /* Gridsystemet */
@@ -46,41 +59,39 @@ li a:hover {
 	margin:0% 15%;
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr 1fr;
-    grid-auto-rows:300px;
-	grid-gap:1em;}
+    /*grid-auto-rows:300px;*/
+    grid-gap:1em;
+}
 
-#wrap div {
-		padding:1em; }
+#wrap div, #wrap section, #wrap article {
+        padding:1em;
+    }
 
-
-.div1 {grid-column:1/5;
+.section1 {grid-column:1/5;
     background: darkseagreen;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkslategrey;
-    text-align: center;
-    
+    border-radius:5px 5px 5px 5px;
 }
 .article1 {grid-column:1/3;
-    background:#e9967a;
-    border-radius:5px 5px 5px 5px;
+    color: darkslategrey;
+    /*background:#e9967a;*/
+    /*border-radius:5px 5px 5px 5px;*/
    
 
 }
 .pic1 {grid-column:3/5;
-    color: darksalmon;
+       border-radius:5px 5px 5px 5px;
+       color: darksalmon;
     
 }
-.pic2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: salmon;
-    text-align: center;
+.pic2 {grid-column: 1/3;
+    border-radius:5px 5px 5px 5px;
 
 }
-.article2 {
+.article2 {grid-column: 3/5;
     background: darksalmon;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: floralwhite;
-    text-align: center;
+    border-radius:5px 5px 5px 5px;
 }
 .ul2 {
     
