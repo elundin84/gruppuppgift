@@ -56,9 +56,9 @@ li a {
 /* Gridsystemet */
 
 #wrap {
-	margin:0% 15%;
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr;
+    margin:0% 15%;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
     /*grid-auto-rows:300px;*/
     grid-gap:1em;
 }
@@ -93,18 +93,26 @@ li a {
     color: floralwhite;
     border-radius:5px 5px 5px 5px;
 }
-.ul2 {
-    
-}
 .div6 { grid-column:1/3;
+    background:orange;
+    border-radius:0px 0px 0px 25px;
+    border:solid black 5px;
 }
 .div7 { grid-column:3/5;
-    background:blue;
+    background:orange;
+    border: solid black 5px;
+
 }
 .div8 { grid-column:1/5;
-		height:25px;
+        height:25px;
         border-radius:0px 0px 10px 10px;}          
 img {
-    height: 280px;
+    height: 300px;
     border-radius: 5px;
+    padding:0px;
+}
+
+figure {
+    padding:0px;
+    margin:0px;
 }
