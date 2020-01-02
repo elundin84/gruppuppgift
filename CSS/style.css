@@ -94,6 +94,10 @@ li a {
     color: floralwhite;
     border-radius:5px 5px 5px 5px;
 }
+
+.ul2 {
+    color: floralwhite;
+}
 .div6 { grid-column:1/3;
     background:darkseagreen;
     border-radius:0px 0px 0px 25px;
