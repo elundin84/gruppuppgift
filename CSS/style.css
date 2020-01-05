@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+    color: white;
     text-align: left;
     font-size: 18px;
     margin:0px;
@@ -8,9 +8,28 @@ body {
 h1, h2, figure, figcaption {
     text-align: center;
 }
+h1, h2 {
+    color: black;
+}
+
+img {
+    height: 300px;
+    border-radius: 5px;
+    padding:0px;
+}
+
+figure {
+    padding:5px;
+    margin:0px;
+}
+
+figure, article, section{
+    border: solid black 2px;
+}
+
 .header {
-    background-color: darkseagreen;
-    color: rgb(31, 53, 53);
+    background-color: darksalmon;
+    color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 30px;
@@ -22,6 +41,7 @@ h1, h2, figure, figcaption {
     padding-bottom:20px;
    
 }
+/*navigation*/
 .nav {
     list-style-type: none;
     display: flex;
@@ -31,8 +51,8 @@ h1, h2, figure, figcaption {
     text-transform: uppercase;
     text-align: center;
     line-height: 50px;
-    border-bottom: 2px solid  #e9967a;
-    border-top: 2px solid #e9967a;
+    border-bottom: 2px solid  darkseagreen;
+    border-top: 2px solid darkseagreen;
 }
 
 .nav li a{
@@ -41,17 +61,11 @@ h1, h2, figure, figcaption {
 }
 .nav li a:hover{
     text-decoration:underline;
-    color: white;
-    background-color: #e9967a;
-    background-size: 50px;
-
+    color: darkseagreen
 }
 
-li {
+li a{
     color: black;
-}
-li a {
-    color:rgb(31, 53, 53);
 }
 
 /* Gridsystemet */
@@ -67,58 +81,43 @@ li a {
 #wrap div, #wrap section, #wrap article {
         padding:1em;
     }
-
+  
 .section1 {grid-column:1/5;
-    background: darkseagreen;
-    color: darkslategrey;
+    background: #e9967a;
     border-radius:5px 5px 5px 5px;
 }
+  /*Emma*/
 .article1 {grid-column:1/3;
-    color: darkslategrey;
-    /*background:#e9967a;*/
-    /*border-radius:5px 5px 5px 5px;*/
+    background:darkseagreen;
+    border-radius:5px 5px 5px 5px;
    
 
 }
 .pic1 {grid-column:3/5;
-       border-radius:5px 5px 5px 5px;
-       color: darksalmon;
+    background: darkseagreen;
+    border-radius:5px 5px 5px 5px;
+
     
 }
+/*jonna*/
 .pic2 {grid-column: 1/3;
+    background: darksalmon;
     border-radius:5px 5px 5px 5px;
 
 }
 .article2 {grid-column: 3/5;
     background: darksalmon;
-    color: black;
     border-radius:5px 5px 5px 5px;
 }
-
-.ul2 {
-    color: black;
-}
+/*Robert*/
 .div6 { grid-column:1/3;
     background:darkseagreen;
-    border-radius:0px 0px 0px 25px;
-    border:solid black 5px;
+    border-radius:5px 5px 5px 5px;
 }
 .div7 { grid-column:3/5;
     background:darkseagreen;
-    border: solid black 5px;
-
+    border-radius:5px 5px 5px 5px;
 }
-         
-img {
-    height: 300px;
-    border-radius: 5px;
-    padding:0px;
-}
-
-figure {
-    padding:0px;
-    margin:0px;}
-
 
 footer {
     margin:3em 0px 0px 0px;
